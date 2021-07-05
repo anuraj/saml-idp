@@ -19,7 +19,7 @@
   },
   "main": "./app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js --acsUrl https://qa.socxo.net/account/samlcallback --port $PORT --audience https://socxo.com"
   },
   "bin": "./bin/run.js",
   "engines": {
